@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:esehat="http://www.example.org/esehat" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_hRDHcGp1Eeylif3h8BPaKA" selectedViews="_XnqB8GqOEeyJqOqDr1XfJA" version="14.5.1.202106111100">
+    <semanticResources>My.esehat</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_XnqB8GqOEeyJqOqDr1XfJA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YTZtoGqOEeyJqOqDr1XfJA" name="new EsehatPlan" repPath="#_YS9BsGqOEeyJqOqDr1XfJA" changeId="679d5672-4794-4dc6-aab7-1989848179b6">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']"/>
+        <target xmi:type="esehat:ESEHAT" href="My.esehat#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_YS9BsGqOEeyJqOqDr1XfJA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_YUTFgGqOEeyJqOqDr1XfJA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_YUTFgWqOEeyJqOqDr1XfJA" type="Sirius" element="_YS9BsGqOEeyJqOqDr1XfJA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_YVVnUGqOEeyJqOqDr1XfJA" type="2001" element="_YUmAcGqOEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_YVfYUGqOEeyJqOqDr1XfJA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YVfYUWqOEeyJqOqDr1XfJA" x="-26" y="-22"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YV7dMGqOEeyJqOqDr1XfJA" type="3005" element="_YU47YGqOEeyJqOqDr1XfJA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YV7dMWqOEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YV7dMmqOEeyJqOqDr1XfJA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_YVVnUWqOEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YVVnUmqOEeyJqOqDr1XfJA" x="293" y="33" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="__z7RkGqOEeyJqOqDr1XfJA" type="2001" element="__y4IsmqOEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="__z7Rk2qOEeyJqOqDr1XfJA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="__z7RlGqOEeyJqOqDr1XfJA" x="-29" y="36"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JslYwGqPEeyJqOqDr1XfJA" type="3005" element="_JscO0mqPEeyJqOqDr1XfJA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_JslYwWqPEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JslYwmqPEeyJqOqDr1XfJA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="__z7RkWqOEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__z7RkmqOEeyJqOqDr1XfJA" x="765" y="110" width="41" height="35"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_W0tFkGqPEeyJqOqDr1XfJA" type="2001" element="_WzwqZGqPEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_W0tFk2qPEeyJqOqDr1XfJA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_W0tFlGqPEeyJqOqDr1XfJA" x="56" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_mpPVUGqPEeyJqOqDr1XfJA" type="3005" element="_moBNVGqPEeyJqOqDr1XfJA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_mpPVUWqPEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mpPVUmqPEeyJqOqDr1XfJA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_W0tFkWqPEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W0tFkmqPEeyJqOqDr1XfJA" x="421" y="15" width="76" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_OAIcsGr_EeyJqOqDr1XfJA" type="2001" element="_N-8J5mr_EeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_OAIcs2r_EeyJqOqDr1XfJA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OAIctGr_EeyJqOqDr1XfJA" x="47" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6eqywGr_EeyJqOqDr1XfJA" type="3005" element="_6dnC1mr_EeyJqOqDr1XfJA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_6eqywWr_EeyJqOqDr1XfJA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6eqywmr_EeyJqOqDr1XfJA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OAIcsWr_EeyJqOqDr1XfJA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OAIcsmr_EeyJqOqDr1XfJA" x="579" y="85" width="46" height="41"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_R9-84GsAEeyJqOqDr1XfJA" type="2001" element="_R9QkJWsAEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_R9-842sAEeyJqOqDr1XfJA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_R9-85GsAEeyJqOqDr1XfJA" x="41" y="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Zxv0KmsAEeyJqOqDr1XfJA" type="3005" element="_Zxv0KGsAEeyJqOqDr1XfJA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Zxv0K2sAEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zxv0LGsAEeyJqOqDr1XfJA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_R9-84WsAEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R9-84msAEeyJqOqDr1XfJA" x="665" y="250" width="61" height="41"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_l0GywGsAEeyJqOqDr1XfJA" type="2001" element="_lzThimsAEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_l0Gyw2sAEeyJqOqDr1XfJA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_l0GyxGsAEeyJqOqDr1XfJA" x="22" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_t2wakGsAEeyJqOqDr1XfJA" type="3005" element="_t1mkCmsAEeyJqOqDr1XfJA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_t2wakWsAEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2wakmsAEeyJqOqDr1XfJA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_l0GywWsAEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l0GywmsAEeyJqOqDr1XfJA" x="70" y="274" width="42" height="36"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_4I9DIGsAEeyJqOqDr1XfJA" type="2001" element="_4ILnHGsAEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_4I9DI2sAEeyJqOqDr1XfJA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4I9DJGsAEeyJqOqDr1XfJA" x="16" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__NCJ4GsAEeyJqOqDr1XfJA" type="3005" element="__L2eKGsAEeyJqOqDr1XfJA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__NCJ4WsAEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__NCJ4msAEeyJqOqDr1XfJA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_4I9DIWsAEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4I9DImsAEeyJqOqDr1XfJA" x="285" y="142" width="36" height="36"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ILItUGsBEeyJqOqDr1XfJA" type="2001" element="_IKOubmsBEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_ILItU2sBEeyJqOqDr1XfJA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ILItVGsBEeyJqOqDr1XfJA" x="37" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OUxlEGsBEeyJqOqDr1XfJA" type="3005" element="_OSAk82sBEeyJqOqDr1XfJA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OUxlEWsBEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OUxlEmsBEeyJqOqDr1XfJA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ILItUWsBEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ILItUmsBEeyJqOqDr1XfJA" x="461" y="290" width="36" height="41"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_YY-08GsBEeyJqOqDr1XfJA" type="2001" element="_YYXw8GsBEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_YY-082sBEeyJqOqDr1XfJA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YY-09GsBEeyJqOqDr1XfJA" x="16" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fAxoUGsBEeyJqOqDr1XfJA" type="3005" element="_e_mjsGsBEeyJqOqDr1XfJA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_fAxoUWsBEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAxoUmsBEeyJqOqDr1XfJA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_YY-08WsBEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YY-08msBEeyJqOqDr1XfJA" x="305" y="310" width="36" height="31"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_rLEa8GsBEeyJqOqDr1XfJA" type="2001" element="_rKVbMmsBEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_rLEa82sBEeyJqOqDr1XfJA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rLEa9GsBEeyJqOqDr1XfJA" x="16" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xC6YEGsBEeyJqOqDr1XfJA" type="3005" element="_xCHt6msBEeyJqOqDr1XfJA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xC6YEWsBEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xC6YEmsBEeyJqOqDr1XfJA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_rLEa8WsBEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rLEa8msBEeyJqOqDr1XfJA" x="540" y="195" width="36" height="31"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_8sb_8GsBEeyJqOqDr1XfJA" type="2001" element="_8rm5lGsBEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_8sb_82sBEeyJqOqDr1XfJA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8sb_9GsBEeyJqOqDr1XfJA" x="21" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Gv96YGsCEeyJqOqDr1XfJA" type="3005" element="_Gu1R8msCEeyJqOqDr1XfJA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Gv96YWsCEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gv96YmsCEeyJqOqDr1XfJA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_8sb_8WsBEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8sb_8msBEeyJqOqDr1XfJA" x="40" y="25" width="41" height="41"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_irGvkGsCEeyJqOqDr1XfJA" type="2001" element="_iqUsf2sCEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_irGvk2sCEeyJqOqDr1XfJA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_irGvlGsCEeyJqOqDr1XfJA" x="31" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_quIx4GsCEeyJqOqDr1XfJA" type="3005" element="_qtGQJmsCEeyJqOqDr1XfJA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_quIx4WsCEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_quIx4msCEeyJqOqDr1XfJA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_irGvkWsCEeyJqOqDr1XfJA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_irGvkmsCEeyJqOqDr1XfJA" x="10" y="134" width="51" height="51"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_YUTFgmqOEeyJqOqDr1XfJA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_0POUUGsHEeyJqOqDr1XfJA" type="4001" element="_0N9JAGsHEeyJqOqDr1XfJA" source="_R9-84GsAEeyJqOqDr1XfJA" target="_OAIcsGr_EeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_0PYFUGsHEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0PYFUWsHEeyJqOqDr1XfJA" x="-3" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_0QHsMGsHEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0QHsMWsHEeyJqOqDr1XfJA" x="12" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_0QHsMmsHEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0QHsM2sHEeyJqOqDr1XfJA" x="9" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_0POUUWsHEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_0POUUmsHEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0POUU2sHEeyJqOqDr1XfJA" points="[-16, -30, 77, 145]$[-82, -154, 11, 21]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0RBEEGsHEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0RBEEWsHEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fAG1wGsIEeyJqOqDr1XfJA" type="4001" element="_e_Ce0WsIEeyJqOqDr1XfJA" source="_OAIcsGr_EeyJqOqDr1XfJA" target="_ILItUGsBEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_fAG1xGsIEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAG1xWsIEeyJqOqDr1XfJA" x="-7" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fAG1xmsIEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAG1x2sIEeyJqOqDr1XfJA" x="12" y="14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fAG1yGsIEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAG1yWsIEeyJqOqDr1XfJA" x="11" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fAG1wWsIEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fAG1wmsIEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fAG1w2sIEeyJqOqDr1XfJA" points="[-13, 21, 110, -182]$[-113, 185, 10, -18]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fAG1ymsIEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fAG1y2sIEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ykxIMGsIEeyJqOqDr1XfJA" type="4001" element="_yjq8FmsIEeyJqOqDr1XfJA" source="_ILItUGsBEeyJqOqDr1XfJA" target="_4I9DIGsAEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_ykxINGsIEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ykxINWsIEeyJqOqDr1XfJA" x="21" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ykxINmsIEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ykxIN2sIEeyJqOqDr1XfJA" x="3" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ykxIOGsIEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ykxIOWsIEeyJqOqDr1XfJA" x="4" y="-5"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ykxIMWsIEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ykxIMmsIEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ykxIM2sIEeyJqOqDr1XfJA" points="[-1, -15, 175, 133]$[-79, -74, 97, 74]$[-158, -135, 18, 13]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ykxIOmsIEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ykxIO2sIEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_E_f-IGsJEeyJqOqDr1XfJA" type="4001" element="_E-fRjWsJEeyJqOqDr1XfJA" source="_4I9DIGsAEeyJqOqDr1XfJA" target="_ILItUGsBEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_E_f-JGsJEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E_f-JWsJEeyJqOqDr1XfJA" x="-13" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_E_f-JmsJEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E_f-J2sJEeyJqOqDr1XfJA" x="-9" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_E_f-KGsJEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E_f-KWsJEeyJqOqDr1XfJA" x="-4" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_E_f-IWsJEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_E_f-ImsJEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E_f-I2sJEeyJqOqDr1XfJA" points="[18, 4, -158, -144]$[97, 24, -79, -124]$[164, 139, -12, -9]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E_f-KmsJEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E_f-K2sJEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CQRiUGsKEeyJqOqDr1XfJA" type="4001" element="_CPRcyGsKEeyJqOqDr1XfJA" source="_4I9DIGsAEeyJqOqDr1XfJA" target="_l0GywGsAEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_CQRiVGsKEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CQRiVWsKEeyJqOqDr1XfJA" x="-25" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CQRiVmsKEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CQRiV2sKEeyJqOqDr1XfJA" x="-4" y="-4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CQRiWGsKEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CQRiWWsKEeyJqOqDr1XfJA" x="-2" y="-8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CQRiUWsKEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CQRiUmsKEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CQRiU2sKEeyJqOqDr1XfJA" points="[-18, 11, 194, -124]$[-78, 50, 134, -85]$[-192, 121, 20, -14]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CQRiWmsKEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CQRiW2sKEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_P-PuMGsKEeyJqOqDr1XfJA" type="4001" element="_P9OajmsKEeyJqOqDr1XfJA" source="_l0GywGsAEeyJqOqDr1XfJA" target="_4I9DIGsAEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_P-PuNGsKEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P-PuNWsKEeyJqOqDr1XfJA" x="6" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_P-PuNmsKEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P-PuN2sKEeyJqOqDr1XfJA" x="-7" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_P-PuOGsKEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P-PuOWsKEeyJqOqDr1XfJA" x="-1" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_P-PuMWsKEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_P-PuMmsKEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_P-PuM2sKEeyJqOqDr1XfJA" points="[15, -21, -197, 114]$[79, -110, -133, 25]$[194, -132, -18, 3]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P-PuOmsKEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P-PuO2sKEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_g3fjQGsKEeyJqOqDr1XfJA" type="4001" element="_g2qdAGsKEeyJqOqDr1XfJA" source="_l0GywGsAEeyJqOqDr1XfJA" target="_rLEa8GsBEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_g3fjRGsKEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3fjRWsKEeyJqOqDr1XfJA" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_g3fjRmsKEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3fjR2sKEeyJqOqDr1XfJA" x="-1" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_g3fjSGsKEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3fjSWsKEeyJqOqDr1XfJA" x="1" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_g3fjQWsKEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_g3fjQmsKEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_g3fjQ2sKEeyJqOqDr1XfJA" points="[21, -4, -446, 78]$[449, -79, -18, 3]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_g3fjSmsKEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_g3fjS2sKEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_UII0YGsNEeyJqOqDr1XfJA" type="4001" element="_UHU8IGsNEeyJqOqDr1XfJA" source="_8sb_8GsBEeyJqOqDr1XfJA" target="_rLEa8GsBEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_UII0ZGsNEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UII0ZWsNEeyJqOqDr1XfJA" x="-1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UII0ZmsNEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UII0Z2sNEeyJqOqDr1XfJA" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UII0aGsNEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UII0aWsNEeyJqOqDr1XfJA" x="-1" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_UII0YWsNEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_UII0YmsNEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UII0Y2sNEeyJqOqDr1XfJA" points="[21, 7, -477, -161]$[480, 161, -18, -7]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UII0amsNEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UII0a2sNEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_5FMWAGsNEeyJqOqDr1XfJA" type="4001" element="_5EUMTGsNEeyJqOqDr1XfJA" source="_irGvkGsCEeyJqOqDr1XfJA" target="_l0GywGsAEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_5FMWBGsNEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5FMWBWsNEeyJqOqDr1XfJA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5FMWBmsNEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5FMWB2sNEeyJqOqDr1XfJA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5FMWCGsNEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5FMWCWsNEeyJqOqDr1XfJA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_5FMWAWsNEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_5FMWAmsNEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5FMWA2sNEeyJqOqDr1XfJA" points="[0, 0, -81, -158]$[71, 140, -10, -18]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5FVf8GsNEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5FVf8WsNEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_NOZf8GsOEeyJqOqDr1XfJA" type="4001" element="_NNJi4GsOEeyJqOqDr1XfJA" source="_YVVnUGqOEeyJqOqDr1XfJA" target="_rLEa8GsBEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_NOZf9GsOEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NOZf9WsOEeyJqOqDr1XfJA" x="-25" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NOZf9msOEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NOZf92sOEeyJqOqDr1XfJA" x="3" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NOZf-GsOEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NOZf-WsOEeyJqOqDr1XfJA" x="-1" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_NOZf8WsOEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_NOZf8msOEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NOZf82sOEeyJqOqDr1XfJA" points="[17, 19, -228, -141]$[87, 102, -158, -58]$[227, 153, -18, -7]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NOZf-msOEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NOZf-2sOEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XmEeYGsOEeyJqOqDr1XfJA" type="4001" element="_XlQmNmsOEeyJqOqDr1XfJA" source="_rLEa8GsBEeyJqOqDr1XfJA" target="_YVVnUGqOEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_XmEeZGsOEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XmEeZWsOEeyJqOqDr1XfJA" x="20" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XmEeZmsOEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XmEeZ2sOEeyJqOqDr1XfJA" x="-3" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XmEeaGsOEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XmEeaWsOEeyJqOqDr1XfJA" x="1" y="-8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XmEeYWsOEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XmEeYmsOEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XmEeY2sOEeyJqOqDr1XfJA" points="[-18, -14, 227, 146]$[-148, -113, 97, 47]$[-226, -151, 19, 9]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XmNoUGsOEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XmNoUWsOEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_bcDUoGsSEeyJqOqDr1XfJA" type="4001" element="_bbQqcGsSEeyJqOqDr1XfJA" source="__z7RkGqOEeyJqOqDr1XfJA" target="_YY-08GsBEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_bcDUpGsSEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bcDUpWsSEeyJqOqDr1XfJA" x="-3" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bcDUpmsSEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bcDUp2sSEeyJqOqDr1XfJA" x="5" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bcDUqGsSEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bcDUqWsSEeyJqOqDr1XfJA" x="3" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_bcDUoWsSEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_bcDUomsSEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bcDUo2sSEeyJqOqDr1XfJA" points="[-16, 12, 446, -186]$[-210, 120, 252, -78]$[-449, 192, 13, -6]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bcDUqmsSEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bcDUq2sSEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_pk7T0GsSEeyJqOqDr1XfJA" type="4001" element="_pimYkGsSEeyJqOqDr1XfJA" source="_YY-08GsBEeyJqOqDr1XfJA" target="__z7RkGqOEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_pk7T1GsSEeyJqOqDr1XfJA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pk7T1WsSEeyJqOqDr1XfJA" x="-10" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_pk7T1msSEeyJqOqDr1XfJA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pk7T12sSEeyJqOqDr1XfJA" x="-9" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_pk7T2GsSEeyJqOqDr1XfJA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pk7T2WsSEeyJqOqDr1XfJA" x="-6" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_pk7T0WsSEeyJqOqDr1XfJA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_pk7T0msSEeyJqOqDr1XfJA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pk7T02sSEeyJqOqDr1XfJA" points="[5, -17, -457, 181]$[187, -173, -275, 25]$[447, -196, -15, 2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pk7T2msSEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pk7T22sSEeyJqOqDr1XfJA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Y6Gq4Gs5EeyN3vG_1m6iKw" type="4001" element="_Y585kGs5EeyN3vG_1m6iKw" source="_W0tFkGqPEeyJqOqDr1XfJA" target="_R9-84GsAEeyJqOqDr1XfJA">
+          <children xmi:type="notation:Node" xmi:id="_Y6Gq5Gs5EeyN3vG_1m6iKw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6Gq5Ws5EeyN3vG_1m6iKw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Y6Gq5ms5EeyN3vG_1m6iKw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6Gq52s5EeyN3vG_1m6iKw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Y6Gq6Gs5EeyN3vG_1m6iKw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6Gq6Ws5EeyN3vG_1m6iKw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Y6Gq4Ws5EeyN3vG_1m6iKw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Y6Gq4ms5EeyN3vG_1m6iKw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y6Gq42s5EeyN3vG_1m6iKw" points="[0, 0, -168, -235]$[168, 235, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y6Gq6ms5EeyN3vG_1m6iKw" id="(1.0,0.39473684210526316)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y6Gq62s5EeyN3vG_1m6iKw" id="(0.0,0.4918032786885246)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_YVCsYGqOEeyJqOqDr1XfJA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_YVCsYWqOEeyJqOqDr1XfJA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_YUmAcGqOEeyJqOqDr1XfJA" name="Doctor Ali" outgoingEdges="_NNJi4GsOEeyJqOqDr1XfJA" incomingEdges="_XlQmNmsOEeyJqOqDr1XfJA" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="esehat:DoctorConcultation" href="My.esehat#//@doctorconcultation.0"/>
+      <semanticElements xmi:type="esehat:DoctorConcultation" href="My.esehat#//@doctorconcultation.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_YU47YGqOEeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/DoctorConcultation.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DoctorNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DoctorNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="__y4IsmqOEeyJqOqDr1XfJA" name="Nutritionist" outgoingEdges="_bbQqcGsSEeyJqOqDr1XfJA" incomingEdges="_pimYkGsSEeyJqOqDr1XfJA" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="esehat:NutritionistConsultation" href="My.esehat#//@nutritionistconsultation.0"/>
+      <semanticElements xmi:type="esehat:NutritionistConsultation" href="My.esehat#//@nutritionistconsultation.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_JscO0mqPEeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/NutritionistConsultation.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='NutritionistNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='NutritionistNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_WzwqZGqPEeyJqOqDr1XfJA" name="DiseaseDetection" outgoingEdges="_Y585kGs5EeyN3vG_1m6iKw" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="esehat:DiseaseDetection" href="My.esehat#//@diseasedetection.0"/>
+      <semanticElements xmi:type="esehat:DiseaseDetection" href="My.esehat#//@diseasedetection.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_moBNVGqPEeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/DiseaseDetection.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseDetectionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseDetectionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_N-8J5mr_EeyJqOqDr1XfJA" name="SymptomsDataset" outgoingEdges="_e_Ce0WsIEeyJqOqDr1XfJA" incomingEdges="_0N9JAGsHEeyJqOqDr1XfJA" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="esehat:SymptomsDataset" href="My.esehat#//@symptomsdataset.0"/>
+      <semanticElements xmi:type="esehat:SymptomsDataset" href="My.esehat#//@symptomsdataset.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_6dnC1mr_EeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/SymptomsDataset.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='SymptomsDSNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='SymptomsDSNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_R9QkJWsAEeyJqOqDr1XfJA" name="Patient" outgoingEdges="_0N9JAGsHEeyJqOqDr1XfJA" incomingEdges="_Y585kGs5EeyN3vG_1m6iKw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="esehat:PatientDetail" href="My.esehat#//@patientdetail.0"/>
+      <semanticElements xmi:type="esehat:PatientDetail" href="My.esehat#//@patientdetail.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Zxv0KGsAEeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/PatientDetail.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DetailNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DetailNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_lzThimsAEeyJqOqDr1XfJA" name="DiseasesList" outgoingEdges="_P9OajmsKEeyJqOqDr1XfJA _g2qdAGsKEeyJqOqDr1XfJA" incomingEdges="_CPRcyGsKEeyJqOqDr1XfJA _5EUMTGsNEeyJqOqDr1XfJA" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="esehat:ListOfDiseases" href="My.esehat#//@listofdiseases.0"/>
+      <semanticElements xmi:type="esehat:ListOfDiseases" href="My.esehat#//@listofdiseases.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_t1mkCmsAEeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/ListOfDiseases.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_4ILnHGsAEeyJqOqDr1XfJA" name="Algorithm" outgoingEdges="_E-fRjWsJEeyJqOqDr1XfJA _CPRcyGsKEeyJqOqDr1XfJA" incomingEdges="_yjq8FmsIEeyJqOqDr1XfJA _P9OajmsKEeyJqOqDr1XfJA" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="esehat:ML_Algorithm" href="My.esehat#//@ml_algorithm.0"/>
+      <semanticElements xmi:type="esehat:ML_Algorithm" href="My.esehat#//@ml_algorithm.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="__L2eKGsAEeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/ML_Algorithm.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='AlgorithmNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='AlgorithmNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_IKOubmsBEeyJqOqDr1XfJA" name="MatchedSymptoms" outgoingEdges="_yjq8FmsIEeyJqOqDr1XfJA" incomingEdges="_e_Ce0WsIEeyJqOqDr1XfJA _E-fRjWsJEeyJqOqDr1XfJA" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="esehat:MatchedSymptom" href="My.esehat#//@matchedsymptom.0"/>
+      <semanticElements xmi:type="esehat:MatchedSymptom" href="My.esehat#//@matchedsymptom.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_OSAk82sBEeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/MatchedSymptom.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='MatchedSymNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='MatchedSymNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_YYXw8GsBEeyJqOqDr1XfJA" name="DietPlan" outgoingEdges="_pimYkGsSEeyJqOqDr1XfJA" incomingEdges="_bbQqcGsSEeyJqOqDr1XfJA" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="esehat:DietPlan" href="My.esehat#//@dietplan.0"/>
+      <semanticElements xmi:type="esehat:DietPlan" href="My.esehat#//@dietplan.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_e_mjsGsBEeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/DietPlan.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DietPlanNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DietPlanNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_rKVbMmsBEeyJqOqDr1XfJA" name="PredictedDisease" outgoingEdges="_XlQmNmsOEeyJqOqDr1XfJA" incomingEdges="_g2qdAGsKEeyJqOqDr1XfJA _UHU8IGsNEeyJqOqDr1XfJA _NNJi4GsOEeyJqOqDr1XfJA" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="esehat:PredictedDiseases" href="My.esehat#//@predicteddiseases.0"/>
+      <semanticElements xmi:type="esehat:PredictedDiseases" href="My.esehat#//@predicteddiseases.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_xCHt6msBEeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/PredictedDisease.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='PredictedNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='PredictedNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_8rm5lGsBEeyJqOqDr1XfJA" name="PrecautionsDataset" outgoingEdges="_UHU8IGsNEeyJqOqDr1XfJA" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="esehat:PrecautionsDataset" href="My.esehat#//@precautionsdataset.0"/>
+      <semanticElements xmi:type="esehat:PrecautionsDataset" href="My.esehat#//@precautionsdataset.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Gu1R8msCEeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/PrecautionsDataset.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='PrecautionDSNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='PrecautionDSNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_iqUsf2sCEeyJqOqDr1XfJA" name="DiseasesDiscription" outgoingEdges="_5EUMTGsNEeyJqOqDr1XfJA" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="esehat:DiseasaseDiscriptionDataset" href="My.esehat#//@diseasasediscriptiondataset.0"/>
+      <semanticElements xmi:type="esehat:DiseasaseDiscriptionDataset" href="My.esehat#//@diseasasediscriptiondataset.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qtGQJmsCEeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/DiseasaseDiscriptionDataset.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseDiscripNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseDiscripNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_0N9JAGsHEeyJqOqDr1XfJA" sourceNode="_R9QkJWsAEeyJqOqDr1XfJA" targetNode="_N-8J5mr_EeyJqOqDr1XfJA">
+      <target xmi:type="esehat:PatientDetail" href="My.esehat#//@patientdetail.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_0OoecGsHEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='PatientDetail-SymptomsDataset']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_0OoecWsHEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='PatientDetail-SymptomsDataset']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_e_Ce0WsIEeyJqOqDr1XfJA" sourceNode="_N-8J5mr_EeyJqOqDr1XfJA" targetNode="_IKOubmsBEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:SymptomsDataset" href="My.esehat#//@symptomsdataset.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_e_Ce0msIEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='SymptomsDataset-MatchedSymptom']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_e_Ce02sIEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='SymptomsDataset-MatchedSymptom']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_yjq8FmsIEeyJqOqDr1XfJA" sourceNode="_IKOubmsBEeyJqOqDr1XfJA" targetNode="_4ILnHGsAEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:MatchedSymptom" href="My.esehat#//@matchedsymptom.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_yjq8F2sIEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='MatchedSymptom-MLalgo']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_yjq8GGsIEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='MatchedSymptom-MLalgo']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_E-fRjWsJEeyJqOqDr1XfJA" sourceNode="_4ILnHGsAEeyJqOqDr1XfJA" targetNode="_IKOubmsBEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:ML_Algorithm" href="My.esehat#//@ml_algorithm.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_E-fRjmsJEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='MLalgo-MatchedSymptom']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_E-fRj2sJEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='MLalgo-MatchedSymptom']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CPRcyGsKEeyJqOqDr1XfJA" sourceNode="_4ILnHGsAEeyJqOqDr1XfJA" targetNode="_lzThimsAEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:ML_Algorithm" href="My.esehat#//@ml_algorithm.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_CPRcyWsKEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='Algo-DiseaseList']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_CPRcymsKEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='Algo-DiseaseList']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_P9OajmsKEeyJqOqDr1XfJA" sourceNode="_lzThimsAEeyJqOqDr1XfJA" targetNode="_4ILnHGsAEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:ListOfDiseases" href="My.esehat#//@listofdiseases.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_P9Oaj2sKEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='DiseaseList-Algo']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_P9OakGsKEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='DiseaseList-Algo']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_g2qdAGsKEeyJqOqDr1XfJA" sourceNode="_lzThimsAEeyJqOqDr1XfJA" targetNode="_rKVbMmsBEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:ListOfDiseases" href="My.esehat#//@listofdiseases.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_g20N0GsKEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='DiseaseList-PredictedDisease']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_g20N0WsKEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='DiseaseList-PredictedDisease']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_UHU8IGsNEeyJqOqDr1XfJA" sourceNode="_8rm5lGsBEeyJqOqDr1XfJA" targetNode="_rKVbMmsBEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:PrecautionsDataset" href="My.esehat#//@precautionsdataset.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_UHU8IWsNEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='PrecautionDS-Predicteddisease']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_UHU8ImsNEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='PrecautionDS-Predicteddisease']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_5EUMTGsNEeyJqOqDr1XfJA" sourceNode="_iqUsf2sCEeyJqOqDr1XfJA" targetNode="_lzThimsAEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:DiseasaseDiscriptionDataset" href="My.esehat#//@diseasasediscriptiondataset.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_5EUMTWsNEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='DescriptionDiseaseList']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_5EUMTmsNEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='DescriptionDiseaseList']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_NNJi4GsOEeyJqOqDr1XfJA" sourceNode="_YUmAcGqOEeyJqOqDr1XfJA" targetNode="_rKVbMmsBEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:DoctorConcultation" href="My.esehat#//@doctorconcultation.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_NNJi4WsOEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='Doctor-Disease']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_NNJi4msOEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='Doctor-Disease']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XlQmNmsOEeyJqOqDr1XfJA" sourceNode="_rKVbMmsBEeyJqOqDr1XfJA" targetNode="_YUmAcGqOEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:PredictedDiseases" href="My.esehat#//@predicteddiseases.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XlQmN2sOEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='Disease-Doctor']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XlQmOGsOEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='Disease-Doctor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_bbQqcGsSEeyJqOqDr1XfJA" sourceNode="__y4IsmqOEeyJqOqDr1XfJA" targetNode="_YYXw8GsBEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:NutritionistConsultation" href="My.esehat#//@nutritionistconsultation.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_bbQqcWsSEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='Nutritionist-dietplan']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_bbQqcmsSEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='Nutritionist-dietplan']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pimYkGsSEeyJqOqDr1XfJA" sourceNode="_YYXw8GsBEeyJqOqDr1XfJA" targetNode="__y4IsmqOEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:DietPlan" href="My.esehat#//@dietplan.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pimYkWsSEeyJqOqDr1XfJA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='Dietplan-Nutritionist']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pimYkmsSEeyJqOqDr1XfJA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='Dietplan-Nutritionist']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Y585kGs5EeyN3vG_1m6iKw" sourceNode="_WzwqZGqPEeyJqOqDr1XfJA" targetNode="_R9QkJWsAEeyJqOqDr1XfJA">
+      <target xmi:type="esehat:DiseaseDetection" href="My.esehat#//@diseasedetection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Y585kWs5EeyN3vG_1m6iKw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='DiseaseDetection-PatientDetail']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Y585kms5EeyN3vG_1m6iKw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='DiseaseDetection-PatientDetail']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_YTGysGqOEeyJqOqDr1XfJA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer"/>
+    <target xmi:type="esehat:ESEHAT" href="My.esehat#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

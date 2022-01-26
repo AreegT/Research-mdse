@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esehat:ESEHAT xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esehat="http://www.example.org/esehat">
+  <doctorconcultation Name="Doctor Ali" predicteddiseases="//@predicteddiseases.0"/>
+  <nutritionistconsultation name="Doctor Fatima" dietplan="//@dietplan.0"/>
+  <diseasedetection patientdetail="//@patientdetail.0"/>
+  <symptomsdataset matchedsymptom="//@matchedsymptom.0"/>
+  <patientdetail P_Name="Amina" P_Gender="Female" P_Age="22" Symptoms="Fever" symptomsdataset="//@symptomsdataset.0"/>
+  <listofdiseases ml_algorithm="//@ml_algorithm.0" predicteddiseases="//@predicteddiseases.0" name="Low Fever High Fever" language="English" confirmation="true"/>
+  <ml_algorithm matchedsymptom="//@matchedsymptom.0" listofdiseases="//@listofdiseases.0"/>
+  <matchedsymptom ml_algorithm="//@ml_algorithm.0" Days="3"/>
+  <dietplan name="Take Fruits Take Vitamins Meat Fresh juices" nutritionistconsultation="//@nutritionistconsultation.0"/>
+  <predicteddiseases name="Typhoid" consult="Doctor Ali" doctorconcultation="//@doctorconcultation.0"/>
+  <precautionsdataset predicteddiseases="//@predicteddiseases.0"/>
+  <diseasasediscriptiondataset listofdiseases="//@listofdiseases.0"/>
+</esehat:ESEHAT>
