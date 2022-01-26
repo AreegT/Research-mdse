@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/esehat/src-gen" creationIcons="false" editDirectory="/esehat.edit/src-gen"
+    editorDirectory="/esehat.editor/src-gen" modelPluginID="esehat" modelName="Esehat"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>esehat.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Esehat" disposableProviderFactory="true" ecorePackage="esehat.ecore#/">
+    <genClasses ecoreClass="esehat.ecore#//ESEHAT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esehat.ecore#//ESEHAT/doctorconcultation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esehat.ecore#//ESEHAT/nutritionistconsultation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esehat.ecore#//ESEHAT/diseasedetection"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esehat.ecore#//ESEHAT/symptomsdataset"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esehat.ecore#//ESEHAT/patientdetail"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esehat.ecore#//ESEHAT/listofdiseases"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esehat.ecore#//ESEHAT/ml_algorithm"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esehat.ecore#//ESEHAT/matchedsymptom"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esehat.ecore#//ESEHAT/dietplan"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esehat.ecore#//ESEHAT/predicteddiseases"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esehat.ecore#//ESEHAT/precautionsdataset"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esehat.ecore#//ESEHAT/diseasasediscriptiondataset"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//NutritionistConsultation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//NutritionistConsultation/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//NutritionistConsultation/dietplan"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//DoctorConcultation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//DoctorConcultation/Name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//DoctorConcultation/predicteddiseases"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//DiseaseDetection">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//DiseaseDetection/patientdetail"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//PatientDetail">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//PatientDetail/P_Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//PatientDetail/P_Gender"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//PatientDetail/P_Age"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//PatientDetail/Symptoms"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//PatientDetail/symptomsdataset"/>
+      <genOperations ecoreOperation="esehat.ecore#//PatientDetail/submit"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//MatchedSymptom">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//MatchedSymptom/ml_algorithm"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//MatchedSymptom/Days"/>
+      <genOperations ecoreOperation="esehat.ecore#//MatchedSymptom/getmatchedsymptoms"/>
+      <genOperations ecoreOperation="esehat.ecore#//MatchedSymptom/submit"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//ML_Algorithm">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//ML_Algorithm/matchedsymptom"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//ML_Algorithm/listofdiseases"/>
+      <genOperations ecoreOperation="esehat.ecore#//ML_Algorithm/multipletrees"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//ListOfDiseases">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//ListOfDiseases/ml_algorithm"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//ListOfDiseases/predicteddiseases"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//ListOfDiseases/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//ListOfDiseases/language"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//ListOfDiseases/confirmation"/>
+      <genOperations ecoreOperation="esehat.ecore#//ListOfDiseases/getsymptom_details"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//PredictedDiseases">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//PredictedDiseases/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//PredictedDiseases/consult"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//PredictedDiseases/doctorconcultation"/>
+      <genOperations ecoreOperation="esehat.ecore#//PredictedDiseases/getsymptom_details"/>
+      <genOperations ecoreOperation="esehat.ecore#//PredictedDiseases/getsymptom_precautions"/>
+      <genOperations ecoreOperation="esehat.ecore#//PredictedDiseases/seediet_plan"/>
+      <genOperations ecoreOperation="esehat.ecore#//PredictedDiseases/consult_doctor"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//DietPlan">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esehat.ecore#//DietPlan/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//DietPlan/nutritionistconsultation"/>
+      <genOperations ecoreOperation="esehat.ecore#//DietPlan/getdietplan"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//DiseasaseDiscriptionDataset">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//DiseasaseDiscriptionDataset/listofdiseases"/>
+      <genOperations ecoreOperation="esehat.ecore#//DiseasaseDiscriptionDataset/symptom_details"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//SymptomsDataset">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//SymptomsDataset/matchedsymptom"/>
+      <genOperations ecoreOperation="esehat.ecore#//SymptomsDataset/matchedsymptoms"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//PrecautionsDataset">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//PrecautionsDataset/predicteddiseases"/>
+      <genOperations ecoreOperation="esehat.ecore#//PrecautionsDataset/symptom_precautions"/>
+    </genClasses>
+    <genClasses ecoreClass="esehat.ecore#//Random_Forest_Tree">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference esehat.ecore#//Random_Forest_Tree/ml_algorithm"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="esehat" nsURI="http://www.example.org/esehat" nsPrefix="esehat">
+  <eClassifiers xsi:type="ecore:EClass" name="ESEHAT">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="doctorconcultation" upperBound="-1"
+        eType="#//DoctorConcultation" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nutritionistconsultation"
+        upperBound="-1" eType="#//NutritionistConsultation" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="diseasedetection" upperBound="-1"
+        eType="#//DiseaseDetection" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="symptomsdataset" upperBound="-1"
+        eType="#//SymptomsDataset" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="patientdetail" upperBound="-1"
+        eType="#//PatientDetail" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="listofdiseases" upperBound="-1"
+        eType="#//ListOfDiseases" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ml_algorithm" upperBound="-1"
+        eType="#//ML_Algorithm" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="matchedsymptom" upperBound="-1"
+        eType="#//MatchedSymptom" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dietplan" upperBound="-1"
+        eType="#//DietPlan" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="predicteddiseases" upperBound="-1"
+        eType="#//PredictedDiseases" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="precautionsdataset" upperBound="-1"
+        eType="#//PrecautionsDataset" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="diseasasediscriptiondataset"
+        upperBound="-1" eType="#//DiseasaseDiscriptionDataset" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NutritionistConsultation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dietplan" lowerBound="1"
+        upperBound="-1" eType="#//DietPlan" eOpposite="#//DietPlan/nutritionistconsultation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DoctorConcultation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="predicteddiseases" lowerBound="1"
+        eType="#//PredictedDiseases" eOpposite="#//PredictedDiseases/doctorconcultation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DiseaseDetection">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="patientdetail" upperBound="-1"
+        eType="#//PatientDetail"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PatientDetail">
+    <eOperations name="submit"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="P_Name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="P_Gender" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="P_Age" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Symptoms" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="symptomsdataset" lowerBound="1"
+        upperBound="-1" eType="#//SymptomsDataset"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MatchedSymptom">
+    <eOperations name="getmatchedsymptoms"/>
+    <eOperations name="submit"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ml_algorithm" lowerBound="1"
+        eType="#//ML_Algorithm" eOpposite="#//ML_Algorithm/matchedsymptom"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Days" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ML_Algorithm">
+    <eOperations name="multipletrees"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="matchedsymptom" lowerBound="1"
+        upperBound="-1" eType="#//MatchedSymptom" eOpposite="#//MatchedSymptom/ml_algorithm"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="listofdiseases" lowerBound="1"
+        upperBound="-1" eType="#//ListOfDiseases" eOpposite="#//ListOfDiseases/ml_algorithm"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ListOfDiseases">
+    <eOperations name="getsymptom_details"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ml_algorithm" lowerBound="1"
+        eType="#//ML_Algorithm" eOpposite="#//ML_Algorithm/listofdiseases"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="predicteddiseases" lowerBound="1"
+        eType="#//PredictedDiseases"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="language" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="confirmation" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PredictedDiseases">
+    <eOperations name="getsymptom_details"/>
+    <eOperations name="getsymptom_precautions"/>
+    <eOperations name="seediet_plan"/>
+    <eOperations name="consult_doctor"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="consult" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="doctorconcultation" upperBound="-1"
+        eType="#//DoctorConcultation" eOpposite="#//DoctorConcultation/predicteddiseases"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DietPlan">
+    <eOperations name="getdietplan"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nutritionistconsultation"
+        upperBound="-1" eType="#//NutritionistConsultation" eOpposite="#//NutritionistConsultation/dietplan"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DiseasaseDiscriptionDataset">
+    <eOperations name="symptom_details"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="listofdiseases" lowerBound="1"
+        upperBound="-1" eType="#//ListOfDiseases"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SymptomsDataset">
+    <eOperations name="matchedsymptoms"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="matchedsymptom" lowerBound="1"
+        upperBound="-1" eType="#//MatchedSymptom"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PrecautionsDataset">
+    <eOperations name="symptom_precautions"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="predicteddiseases" lowerBound="1"
+        eType="#//PredictedDiseases"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Random_Forest_Tree">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ml_algorithm" lowerBound="1"
+        upperBound="-1" eType="#//ML_Algorithm"/>
+  </eClassifiers>
+</ecore:EPackage>
