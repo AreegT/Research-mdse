@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated esehat -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="esehat.presentation.EsehatModelWizardID"
+            name="%_UI_EsehatModelWizard_label"
+            class="esehat.presentation.EsehatModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/EsehatModelFile.gif">
+         <description>%_UI_EsehatModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated esehat -->
+      <editor
+            id="esehat.presentation.EsehatEditorID"
+            name="%_UI_EsehatEditor_label"
+            icon="icons/full/obj16/EsehatModelFile.gif"
+            extensions="esehat"
+            class="esehat.presentation.EsehatEditor"
+            contributorClass="esehat.presentation.EsehatActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
