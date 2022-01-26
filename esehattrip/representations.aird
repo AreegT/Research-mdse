@@ -4,7 +4,7 @@
     <semanticResources>My.esehat</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_XnqB8GqOEeyJqOqDr1XfJA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YTZtoGqOEeyJqOqDr1XfJA" name="new EsehatPlan" repPath="#_YS9BsGqOEeyJqOqDr1XfJA" changeId="679d5672-4794-4dc6-aab7-1989848179b6">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YTZtoGqOEeyJqOqDr1XfJA" name="new EsehatPlan" repPath="#_YS9BsGqOEeyJqOqDr1XfJA" changeId="1c6af7b4-3f8c-4450-a24c-a7d7a944787c">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']"/>
         <target xmi:type="esehat:ESEHAT" href="My.esehat#/"/>
       </ownedRepresentationDescriptors>
@@ -386,13 +386,13 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DoctorNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="__y4IsmqOEeyJqOqDr1XfJA" name="Nutritionist" outgoingEdges="_bbQqcGsSEeyJqOqDr1XfJA" incomingEdges="_pimYkGsSEeyJqOqDr1XfJA" width="4" height="4" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="__y4IsmqOEeyJqOqDr1XfJA" name="Nutritionist " outgoingEdges="_bbQqcGsSEeyJqOqDr1XfJA" incomingEdges="_pimYkGsSEeyJqOqDr1XfJA" width="4" height="4" resizeKind="NSEW">
       <target xmi:type="esehat:NutritionistConsultation" href="My.esehat#//@nutritionistconsultation.0"/>
       <semanticElements xmi:type="esehat:NutritionistConsultation" href="My.esehat#//@nutritionistconsultation.0"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_JscO0mqPEeyJqOqDr1XfJA" labelSize="12" showIcon="false" workspacePath="/esehattrip.design/icons/NutritionistConsultation.png">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_JscO0mqPEeyJqOqDr1XfJA" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/esehattrip.design/icons/NutritionistConsultation.png">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='NutritionistNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/esehattrip.design/description/esehattrip.odesign#//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='NutritionistNode']"/>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="esehattrip" version="12.0.0.2017041100">
+  <ownedViewpoints name="esehattrip" modelFileExtension="esehat">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="EsehatPlan" domainClass="esehat::ESEHAT" enablePopupBars="true">
+      <metamodel href="http://www.example.org/esehat#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="DoctorNode" semanticCandidatesExpression="feature:doctorconcultation" domainClass="esehat::DoctorConcultation">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Doctor Ali" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/esehattrip.design/icons/DoctorConcultation.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="NutritionistNode" semanticCandidatesExpression="feature:nutritionistconsultation" domainClass="esehat::NutritionistConsultation">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Nutritionist " sizeComputationExpression="4" labelPosition="node" resizeKind="NSEW" workspacePath="/esehattrip.design/icons/NutritionistConsultation.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="DiseaseDetectionNode" semanticCandidatesExpression="feature:diseasedetection" domainClass="esehat::DiseaseDetection">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="DiseaseDetection" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/esehattrip.design/icons/DiseaseDetection.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="SymptomsDSNode" semanticCandidatesExpression="feature:symptomsdataset" domainClass="esehat::SymptomsDataset">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="SymptomsDataset" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/esehattrip.design/icons/SymptomsDataset.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="DetailNode" semanticCandidatesExpression="feature:patientdetail" domainClass="esehat::PatientDetail">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Patient" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/esehattrip.design/icons/PatientDetail.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="DiseaseNode" semanticCandidatesExpression="feature:listofdiseases" domainClass="esehat::ListOfDiseases">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="DiseasesList" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/esehattrip.design/icons/ListOfDiseases.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="AlgorithmNode" semanticCandidatesExpression="feature:ml_algorithm" domainClass="esehat::ML_Algorithm">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Algorithm" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/esehattrip.design/icons/ML_Algorithm.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="MatchedSymNode" semanticCandidatesExpression="feature:matchedsymptom" domainClass="esehat::MatchedSymptom">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="MatchedSymptoms" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/esehattrip.design/icons/MatchedSymptom.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="DietPlanNode" semanticCandidatesExpression="feature:dietplan" domainClass="esehat::DietPlan">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="DietPlan" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/esehattrip.design/icons/DietPlan.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="PredictedNode" semanticCandidatesExpression="feature:predicteddiseases" domainClass="esehat::PredictedDiseases">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="PredictedDisease" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/esehattrip.design/icons/PredictedDisease.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="PrecautionDSNode" semanticCandidatesExpression="feature:precautionsdataset" domainClass="esehat::PrecautionsDataset">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="PrecautionsDataset" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/esehattrip.design/icons/PrecautionsDataset.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="DiseaseDiscripNode" semanticCandidatesExpression="feature:diseasasediscriptiondataset" domainClass="esehat::DiseasaseDiscriptionDataset">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="DiseasesDiscription" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/esehattrip.design/icons/DiseasaseDiscriptionDataset.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="DiseaseDetection-PatientDetail" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseDetectionNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DetailNode']" targetFinderExpression="feature:patientdetail">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="PatientDetail-SymptomsDataset" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DetailNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='SymptomsDSNode']" targetFinderExpression="feature:symptomsdataset">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="SymptomsDataset-MatchedSymptom" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='SymptomsDSNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='MatchedSymNode']" targetFinderExpression="feature:matchedsymptom">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="MatchedSymptom-MLalgo" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='MatchedSymNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='AlgorithmNode']" targetFinderExpression="feature:ml_algorithm">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="MLalgo-MatchedSymptom" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='AlgorithmNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='MatchedSymNode']" targetFinderExpression="feature:matchedsymptom">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Algo-DiseaseList" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='AlgorithmNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseNode']" targetFinderExpression="feature:listofdiseases">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="DiseaseList-Algo" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='AlgorithmNode']" targetFinderExpression="feature:ml_algorithm">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="DiseaseList-PredictedDisease" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='PredictedNode']" targetFinderExpression="feature:predicteddiseases">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="PrecautionDS-Predicteddisease" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='PrecautionDSNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='PredictedNode']" targetFinderExpression="feature:predicteddiseases">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="DescriptionDiseaseList" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseDiscripNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseNode']" targetFinderExpression="feature:listofdiseases">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Doctor-Disease" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DoctorNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='PredictedNode']" targetFinderExpression="feature:predicteddiseases">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Disease-Doctor" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='PredictedNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DoctorNode']" targetFinderExpression="feature:doctorconcultation">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Nutritionist-dietplan" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='NutritionistNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DietPlanNode']" targetFinderExpression="feature:dietplan">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Dietplan-Nutritionist" sourceMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DietPlanNode']" targetMapping="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='NutritionistNode']" targetFinderExpression="feature:nutritionistconsultation">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Doctor" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DoctorNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="esehat::DoctorConcultation" referenceName="doctorconcultation">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="Name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="DiseaseDetection" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseDetectionNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="esehat::DiseaseDetection" referenceName="diseasedetection">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="patientdetail"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Nutritionist" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='NutritionistNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="esehat::NutritionistConsultation" referenceName="nutritionistconsultation">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SymptomsDS" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='SymptomsDSNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="esehat::SymptomsDataset" referenceName="symptomsdataset">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="matchedsymptom"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Patient" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DetailNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="esehat::PatientDetail" referenceName="patientdetail">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="P_Name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="DiseasesList" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="esehat::ListOfDiseases" referenceName="listofdiseases">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Algorithm" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='AlgorithmNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="esehat::ML_Algorithm" referenceName="ml_algorithm">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="matchedsymptom"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="MatchedSymptoms" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='MatchedSymNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="esehat::MatchedSymptom" referenceName="matchedsymptom">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="ml_algorithm"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="DietPlan" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DietPlanNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="esehat::DietPlan" referenceName="dietplan">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="PredictedDisease" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='PredictedNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="esehat::PredictedDiseases" referenceName="predicteddiseases">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="PrecautionsDataset" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='PrecautionDSNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="esehat::PrecautionsDataset" referenceName="precautionsdataset">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="predicteddiseases"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="DiseasesDiscription" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@nodeMappings[name='DiseaseDiscripNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="esehat::DiseasaseDiscriptionDataset" referenceName="diseasasediscriptiondataset">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="listofdiseases"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Doctor-Disease" edgeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='Doctor-Disease']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="predicteddiseases" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="DiseaseDetection-Patient" edgeMappings="//@ownedViewpoints[name='esehattrip']/@ownedRepresentations[name='EsehatPlan']/@defaultLayer/@edgeMappings[name='DiseaseDetection-PatientDetail']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="patientdetail" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="esehattrip.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
